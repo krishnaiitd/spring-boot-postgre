@@ -12,35 +12,35 @@
 2. Utilities Layer -> This layer includes any utility classes or methods that are used across the application.
 
 ### Overall Structural architecture of a Spring Boot Application 
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── com.example
-│   │   │   │   ├── controller
-│   │   │   │   │   └── HomeController.java
-│   │   │   │   ├── model
-│   │   │   │   │   └── User.java
-│   │   │   │   ├── repository
-│   │   │   │   │   └── UserRepository.java
-│   │   │   │   ├── service
-│   │   │   │   │   ├── UserService.java
-│   │   │   │   │   └── UserServiceImpl.java
-│   │   │   ├── resources
-│   │   │   │   ├── static
-│   │   │   │   │   └── css
-│   │   │   │   │       └── style.css
-│   │   │   │   ├── templates
-│   │   │   │   │   ├── home.html
-│   │   │   │   │   └── users.html
-│   │   │   │   ├── application.properties
-│   ├── test
-│   │   ├── java
-│   │   │   ├── com.example
-│   │   │   │   ├── controller
-│   │   │   │   │   └── HomeControllerTest.java
-│   │   │   │   ├── service
-│   │   │   │   │   └── UserServiceTest.java
-├── pom.xml
+   ├── src
+   │   ├── main
+   │   │   ├── java
+   │   │   │   ├── com.example
+   │   │   │   │   ├── controller
+   │   │   │   │   │   └── HomeController.java
+   │   │   │   │   ├── model
+   │   │   │   │   │   └── User.java
+   │   │   │   │   ├── repository
+   │   │   │   │   │   └── UserRepository.java
+   │   │   │   │   ├── service
+   │   │   │   │   │   ├── UserService.java
+   │   │   │   │   │   └── UserServiceImpl.java
+   │   │   │   ├── resources
+   │   │   │   │   ├── static
+   │   │   │   │   │   └── css
+   │   │   │   │   │       └── style.css
+   │   │   │   │   ├── templates
+   │   │   │   │   │   ├── home.html
+   │   │   │   │   │   └── users.html
+   │   │   │   │   ├── application.properties
+   │   ├── test
+   │   │   ├── java
+   │   │   │   ├── com.example
+   │   │   │   │   ├── controller
+   │   │   │   │   │   └── HomeControllerTest.java
+   │   │   │   │   ├── service
+   │   │   │   │   │   └── UserServiceTest.java
+   ├── pom.xml
 
 
 ###  High-level flow diagram for a typical Spring Boot application:
