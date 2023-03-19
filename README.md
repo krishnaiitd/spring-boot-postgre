@@ -79,6 +79,8 @@
 Overall, this flow diagram demonstrates how Spring Boot follows the Model-View-Controller (MVC) pattern to handle user requests and responses, and how it separates concerns to keep the application maintainable and scalable.
 
 
-## To set up with PostGRE database, please check the read me #README-PostGRE.md 
+## To set up with PostGRE database, please check the below read me
+https://github.com/krishnaiitd/spring-boot-postgre/blob/main/README-PostGRE.md 
 
-## To the spring boot application, please check the read me #SpringBoot-run.md
+## To the spring boot application,  please check the below read me
+https://github.com/krishnaiitd/spring-boot-postgre/blob/main/SpringBoot-run.md
