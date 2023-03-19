@@ -12,6 +12,7 @@
 2. Utilities Layer -> This layer includes any utility classes or methods that are used across the application.
 
 ### Overall Structural architecture of a Spring Boot Application 
+```
    ├── src
    │   ├── main
    │   │   ├── java
@@ -41,7 +42,7 @@
    │   │   │   │   ├── service
    │   │   │   │   │   └── UserServiceTest.java
    ├── pom.xml
-
+```
 
 ###  High-level flow diagram for a typical Spring Boot application:
     +------------+         +---------------+        +----------------+        +-------------+
