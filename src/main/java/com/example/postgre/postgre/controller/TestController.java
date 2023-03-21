@@ -23,6 +23,10 @@ public class TestController {
         return new ResponseEntity<>("Hello World", HttpStatus.OK);
     }
 
+    // Map(key, value)
+    // Map(api -> TestController )
+//             Map(withoutdb -> testWithoutDB)
+//             Map(/test/{name}, -> getTestByName)
 
     // After first test example we will discuss below
     @Autowired
